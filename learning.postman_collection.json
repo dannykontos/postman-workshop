@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "1bd56981-970e-4f99-ab64-3eb216eff088",
+		"name": "learning",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "swapiBaseURL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{swapi URL}}",
+					"host": [
+						"{{swapi URL}}"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET people",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{swapiBaseUrl}}/people",
+					"host": [
+						"{{swapiBaseUrl}}"
+					],
+					"path": [
+						"people"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET films",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{swapiBaseUrl}}/films",
+					"host": [
+						"{{swapiBaseUrl}}"
+					],
+					"path": [
+						"films"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET vehicles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{swapiBaseUrl}}/vehicles",
+					"host": [
+						"{{swapiBaseUrl}}"
+					],
+					"path": [
+						"vehicles"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
